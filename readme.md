@@ -13,7 +13,7 @@ This file provides an array of state objects. Each object represents a state in 
 - `name`: The full name of the state (e.g., "Buenos Aires").
 
 Example entry:
-```json
+
 {
   "code": "BSA",
   "name": "Buenos Aires"
@@ -23,8 +23,6 @@ This file contains an array of locality objects, where each object represents a 
 
 Example entry:
 
-json
-Copiar código
 {
   "code": "TUC",
   "name": "San Pedro"
@@ -38,8 +36,6 @@ Geographic information systems (GIS).
 Example Usage in Code
 Here’s a simple example of how you might load and parse these JSON files in JavaScript:
 
-javascript
-Copiar código
 const states = require('./argentina-states.json');
 const localities = require('./argentina_localities.json');
 
